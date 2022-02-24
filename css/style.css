@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(/images/background-site.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    height: 105px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    padding: 0px 80px;
+    height: 70px;
+}
+
+.logo{
+    color: #1856ca;
+    font-size: 45px;
+    font-family: Arial;
+    padding: 20px 20px;
+    float: left;
+    padding-top: 1px;
+    margin-top: 30px;
+    padding-inline:100px;
+    
+}
+
+.menu{
+    width: 10px;
+    float: left;
+    height: 20px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 500px;
+}
+.bis{
+    color: rgb(153, 118, 118);
+}
+ul li{
+    list-style: none;
+    margin-left: 2px;
+    margin-top: 48px;
+    margin-right: 60px;
+    font-size: 14px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 100px;
+    transition: 0.4s;
+}
+ul li a:hover{
+    transition: 1s;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    color: rgb(41, 128, 241);
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #0c0a07;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    margin: 5px;
+    padding-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    font-size: 20px;
+    color: rgb(35, 33, 165);
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.wrapper{
+    background-color:#b6c9d6;
+    height: 760px;
+    width: 100%;
+}
+.head{
+   color: black;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 35px;
+   padding: 60px;
+ }
+ .a{
+     display: flex;
+     padding: 50px;
+     font-size: 23px;
+     padding-bottom: ;
+     
+ }
+ .b{
+     height: 50px;
+     padding-left: 20px;
+    float: auto;
+ }
+ .c{
+     padding-left: 200px;
+     height: 50px;
+ }
+ .d{
+     padding-left: 160px;
+     height: 50px;
+ }
+ .par{
+     display: flex;
+ }
+ .bi{
+    width: 350px;
+    padding: 35px;
+    box-sizing: border-box;
+    background-color:rgb(153, 118, 118);
+    margin: 0px 20px 0px 50px;
+    box-shadow: 10px 10px #000000;
+    border-radius: 20px;
+    font-size: 20px;
+    
+ }
+ .ri{
+    width: 350px;
+    padding: 35px;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+    box-shadow: 10px 10px #000000;
+    border-radius: 20px;
+    margin: 0px 50px 0px 155px;
+    font-size: 20px;
+ }
+ .ni{
+   width: 350px;
+    padding: 35px;
+    box-sizing: border-box;
+    background-color: #1856ca;
+    border-radius: 20px;
+    box-shadow: 10px 10px #000000;
+    margin: 0px 50px 0px 115px;
+    font-size: 20px;
+ }
+ contact {
+    overflow: hidden;
+
+}
+#contact h2{
+    font-size: 38px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    padding: 10px 0;
+
+}
+#contact form label{
+  display: block;
+  padding: 5px 0;
+}
+#contact input, select{
+padding: 10px 5px;
+width: 300px;
+
+}
+#contact input[type=checkbox],input[type=radio]{
+padding: 10px 0;
+width: 40px;
+}
